@@ -1,26 +1,22 @@
-﻿# Secrets
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+**/application-local.properties
 openrouter api.txt
-
 # Node.js
 **/node_modules/
 **/dist/
 **/build/
-
 # Java / Maven
 **/target/
 *.class
-
 # Logs
 *.log
-
-# IDE
+# IDE files
 .idea/
 .vscode/
 *.iml
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
